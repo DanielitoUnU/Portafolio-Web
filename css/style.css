@@ -1,0 +1,1365 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+/*font-family: 'Josefin Sans', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Josefin+Sans:wght@300;400&display=swap');
+/*font-family: 'Comfortaa', cursive;*/
+
+:root {
+    --titulos: 'Josefin Sans', sans-serif;
+    --parrafos: 'Comfortaa', cursive;
+    --tamaño-titulo: 2rem;
+    --tamaño-parrafo: 1.3rem;
+    --color-azul: #181D31;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.bg-portafolio {
+    background-color: #F0E9D2;
+    font-family: var(--titulos);
+    font-size: var(--tamaño-titulo);
+}
+
+.imagenfea{
+    width: 80px;
+    height: 80px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: var(--color-azul) !important;
+}
+
+.hero-left h2 {
+    font-size: 50px;
+    font-family: var(--titulos);
+    text-align: right;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.hero-left h3 {
+    font-size: 20px;
+    font-family: var(--titulos);
+    text-align: right;
+    filter: drop-shadow(0 0px 1px rgba(0, 0, 0, 0.3));
+
+}
+
+header nav {
+    border-bottom: 2px solid #181D31;
+    box-shadow:0 6px 6px rgba(0, 0, 0, 0.2) ;
+}
+
+header  {
+    background: #F0E9D2;
+}
+
+header .cont-foto {
+    padding-top: 120px;
+}
+
+header .cont-foto img {
+    width: 130%;
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.692) ;
+    border-radius: 40px;
+}
+
+header .cont-nombre {
+    padding-top: 230px;
+}
+
+header .cont-nombre h2 {
+    font-size: 70px;
+}
+
+header .hero-right {
+    padding-top: 480px;
+    padding-right: 120px;
+}
+.hero-right img{
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.692));
+}
+
+/* !sOBRE MÍ */
+
+#sobreMi {
+    background: #678983;
+    margin-top: -232px;
+    padding-bottom: 120px;
+    border-top: solid 2.5px #181D31;
+}
+
+#sobreMi li {
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    color: #F0E9D2;
+    font-family: var(--parrafos);
+    margin-bottom: 30px;
+}
+#sobreMi .lista2{
+
+    width: 600px !important;
+    margin-top: 20px !important;
+}
+
+#sobreMi .lista2 h1{
+margin-left: -8px;
+}
+#sobreMi .lista2 {
+    padding-top: 350px;
+    padding-left: 300px;
+    width: 600px;
+}
+
+#sobreMi .lista1 {
+    padding-top: 150px;
+        background-image:url(../imagenes/sobremi.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 650px;
+    padding-bottom: 310px;
+}
+
+#sobreMi .lista1 p {
+    width: 400px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 115px;
+    font-family: var(--parrafos);
+
+}
+
+#sobreMi .lista1 h2 {
+    font-size: 60px;
+    color: #F0E9D2;
+    font-family: var(--titulos);
+}
+
+#sobreMi .lista1 img {
+    margin-top: 60px;
+    filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.692));
+}
+
+/* ! Experiencia */
+
+#experiencia {
+    background: #F0E9D2;
+    padding-bottom: 60px;
+    border-top: solid 2.5px #181D31;
+}
+
+#experiencia .entrenos {
+    text-align: center;
+    padding: 25px;
+}
+
+#experiencia .entrenos a {
+    text-decoration: none;
+    color: #181D31;
+}
+
+#experiencia .linea {
+    border-bottom: 2px solid #181D31;
+}
+
+#experiencia .columna {
+    padding-top: 140px;
+    text-align: center;
+    width: 8px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    
+}
+
+#experiencia .caja{
+    width: 500px;
+    margin: auto;
+}
+
+#experiencia .caja img{
+    width: 80%;
+    margin: auto;
+    
+}
+
+#experiencia img {
+    width: 400px;
+    height: 280px;
+    margin-bottom: 40px !important;
+}
+
+#port .delnimg{
+    width: 200px !important;
+    height: 280px;
+    margin-bottom: 50px;
+}
+#port .delnimg2{
+    width: 200px !important;
+    height: 280px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background: #678983;
+    padding-bottom: 40px;
+    border-top: solid 2.5px #181D31;
+}
+
+footer .cont-foto {
+    padding-top: 40px;
+}
+
+footer .cont-foto img {
+    width: 130%;
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.692) ;
+    border-radius: 60px;
+}
+
+footer .cont-nombre {
+    padding-top: 300px;
+}
+
+footer .cont-nombre h2 {
+    font-size: 55px;
+    color: #F0E9D2;
+    text-align: right;
+}
+
+#fin .redes {
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+#fin .redes p {
+    font-size: 17px;
+    font-family: var(--parrafos);
+    color: #F0E9D2;
+}
+
+#fin .redes ion-icon {
+    font-size: 40px;
+    color: #F0E9D2;
+}
+
+#fin .redes h2 {
+    font-size: 70px;
+    font-family: var(--titulos);
+    color: #F0E9D2;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.692));
+}
+
+#fin .redesDer {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    border-left: #181D31 solid 2px;
+    margin-left: -50px;
+}
+.port input{
+width: 50%;
+border: none;
+background: #678983;
+color: #F0E9D2;
+}
+
+#fin .redesIzq {
+    padding-left: 0px;
+}
+
+#fin .t3 {
+
+    margin-left: -60px;
+}
+
+.ldBar-label{
+    font-size: 10px;
+}
+
+.skils2 .slick-arrow{
+    width: 0px;
+    height: 0px;
+    font-size: 0px;
+    color: transparent;
+    z-index: 0;
+    border: none;
+    opacity: 0;
+}
+
+
+.slick-arrow{
+    width: 40px;
+    height: 40px;
+    font-size: 1px;
+    color: transparent;
+    z-index: 1;
+    border: none;
+    opacity: 0.8;
+}
+
+.slick-prev
+{
+    position: absolute;
+    top:40%;
+    left: -80px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transform: rotate(-180deg);
+    transition: 0.3s ease-in-out;
+}
+
+.slick-next{
+    position: absolute;
+    top:40%;
+    right: -80px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#experiencia .botones{
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: #181D31;
+    background: #67898300;
+    font-size: 30px;
+    font-family: var(--titulos);
+
+}
+
+.skils2{
+width: 600px;
+font-size: var(--tamaño-titulo);
+font-family: var(--titulos);
+color:#181D31;
+text-align: center;
+margin-top: 120px;
+padding: 50px;
+border-radius: 30px;
+margin-left: -235px;
+
+}
+
+.lista2 h1{
+    margin-bottom: -80px;
+    margin-top: 50px;
+    color: #F0E9D2;
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+.add{
+    display: block !important;
+}
+
+.remove{
+display: none !important;
+}
+
+.remove1{
+    color: #181D31 !important;
+}
+
+.add1{
+    color: #678983 !important;
+    background-color:#181D31
+}
+
+.estu1{
+    color: #678983 !important;
+}
+
+.estu{
+    display: block;
+}
+
+.port{
+    display: none;
+}
+
+.expe{
+    display: none;
+}
+
+#expe .expe{
+    display: block;
+}
+
+#port .port{
+    display: block;
+}
+#estu .estu{
+    display: block;
+}
+
+/* ! media */
+
+/*  Desktop largue */
+@media screen and (min-width: 990px) and (max-width:1650px){
+
+    #sobreMi .lista2 {
+        padding-top: 350px;
+        padding-left: 300px;
+        width: 600px;
+    }
+}
+
+/* ! tablet */
+@media screen and (min-width: 768px) and (max-width:990px) {
+        
+    h2,h1{
+        font-size: 25px;
+    }
+
+    .imagenfea{
+        width: 45px !important;
+        height: auto !important;
+    }
+
+   .logo img{
+        width: 80px !important;
+        height: auto !important;
+    }
+
+
+    /* !header */
+    .imagenfea{
+        width: 80px;
+        height: 80px;
+    }
+header{
+    padding-bottom: 125px;
+}
+
+header .cont-foto {
+    padding-top: 120px;
+}
+
+    .hero-right img{
+        width: 300px;
+        height: auto;
+    }
+
+/* ! Sobre mi */
+
+    #sobreMi .lista1 h2 {
+        margin-top: -100px
+        
+    }
+    #sobreMi .lista1 p {
+       margin-left: 144px;
+       text-align: center;
+       margin-top: 155px;
+       font-size: 14px;
+        
+    }
+    #sobreMi .lista1 {
+        margin-top: 10px;
+        background-size: 600px;
+        background-position: center;
+        background-position-y: 180px !important ;
+        
+    }
+
+    /* ! Sobre mi skills */
+
+#sobreMi .lista2{
+
+    width: 600px !important;
+    margin-top: -340px !important;
+}
+
+#sobreMi .lista2 h1{
+margin-left: -8px;
+}
+
+#sobreMi .skils2{
+    width: 600px;
+    margin-left: -235px !important;
+    }
+
+    .slick-prev
+{
+    position: absolute;
+    top:40%;
+    left: 0px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transform: rotate(-180deg);
+    transition: 0.3s ease-in-out;
+}
+
+.slick-next{
+    position: absolute;
+    top:40%;
+    right: 0px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+/* !fin */
+#fin .cont-nombre{
+    margin-top: -130px;
+}
+footer .cont-nombre h2{
+    font-size: 35px !important;
+    padding-top: -120px !important;
+}
+
+.redes h2{
+    font-size: 35px !important;
+}
+
+.redes{
+    margin-left: -60px;
+}
+
+
+
+}
+
+/* !tablet 2 */
+
+@media screen and (min-width: 650px) and (max-width:768px) {
+    
+    .imagenfea{
+        width: 45px !important;
+        height: auto !important;
+    }
+
+   .logo img{
+        width: 80px !important;
+        height: auto !important;
+    }
+
+    h2,h1{
+        font-size: 25px;
+    }
+
+
+header{
+    padding-bottom: 125px;
+}
+
+header .cont-foto {
+    padding-top: 120px;
+}
+
+header .cont-foto img {
+    width: 270px;
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.692) ;
+    border-radius: 40px;}
+
+    header .cont-nombre{
+
+        position: relative;
+        font-size: 40px;
+        padding: 0;
+        margin-top: -400px;
+    }
+
+    .hero-right img{
+        width: 300px;
+        height: auto;
+        margin-top: -300;
+        margin-left: 200px;
+    }
+.hero-left{
+margin-bottom: -450px;
+}
+
+#sobreMi .lista1 h2 {
+    margin-top: -100px;
+    margin-left: -40px;
+    
+}
+#sobreMi .lista1 p {
+   margin-left:60px;
+   text-align: center;
+   margin-top: 170px;
+   font-size: 14px;
+    
+}
+#sobreMi .lista1 {
+    margin-top: 10px;
+    background-size: 600px;
+    background-position: center;
+    background-position-y: 180px !important ;
+    
+}
+
+      /* ! Sobre mi skills */
+
+#sobreMi .lista2{
+    width: 600px !important;
+    margin-top: -340px !important;
+    margin-left: -87px;
+}
+
+#sobreMi .lista2 h1{
+margin-left: -8px;
+}
+
+#sobreMi .skils2{
+    width: 600px;
+    margin-left: -235px !important;
+    }
+
+    .slick-prev
+{
+    position: absolute;
+    top:40%;
+    left: -45px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transform: rotate(-180deg);
+    transition: 0.3s ease-in-out;
+}
+
+.slick-next{
+    position: absolute;
+    top:40%;
+    right: -45px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+/* !fin */
+
+#fin{
+    padding-bottom: 120px !important;
+}
+
+#fin .cont-nombre{
+    margin-top: -600px;
+    margin-left: -100px;
+}
+footer .cont-nombre h2{
+    font-size: 35px !important;
+    padding-top: -120px !important;
+}
+
+.redes h2{
+    font-size: 50px !important;
+    margin-bottom: -150px !important;
+}
+
+.redes{
+    margin-left: -200px;
+    margin-top: 500px;
+}
+
+#fin .redes ion-icon {
+    font-size: 50px;
+}
+
+#fin .cont-foto img {
+    width: 270px;
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.692) ;
+    border-radius: 40px;}
+
+}
+
+
+/* !SMARTPHONE */
+
+@media screen and (min-width: 465px) and (max-width:650px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a{font-size: 25px !important;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    .imagenfea{
+        width: 25px !important;
+        height: auto !important;
+    }
+
+   .logo img{
+        width: 50px !important;
+        height: auto !important;
+    }
+
+    h2,h1{
+        font-size: 25px;
+    }
+
+
+header{
+    padding-bottom: 125px;
+}
+
+header .cont-foto {
+    padding-top: 80px;
+}
+
+header .cont-foto img {
+    width: 180px;
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.692) ;
+    border-radius: 40px;}
+
+    header .cont-nombre{
+
+        position: relative;
+        font-size: 10px !important;
+        padding: 0;
+        margin-top: -340px;
+        margin-left: -120px;
+    }
+    header .cont-nombre h2{
+
+       
+        font-size: 50px !important;
+        margin-top: 40px;
+    }
+    header .cont-nombre h3{
+
+        font-size: 15px !important;
+        margin-top: 10px;
+    }
+
+
+    .hero-right img{
+        width: 200px;
+        height: auto;
+        margin-top: -100px !important;
+        margin-left: 200px;
+        margin-right: -500px !important;
+    }
+.hero-left{
+margin-bottom: -450px;
+}
+
+.hero-right{
+    margin-bottom: 35px;
+}
+
+
+
+#sobreMi .lista1 h2 {
+    margin-top: -100px;
+    margin-left: 10px;
+    font-size: 40px;
+    
+}
+#sobreMi .lista1 p {
+   margin-left:93px;
+   text-align: center;
+   margin-top: 155px;
+   font-size: 12px;
+   width: 310px !important;
+  margin-left: auto;
+  margin-right: auto;
+   
+    
+}
+#sobreMi .lista1 {
+    margin-top: 10px;
+    background-size: 480px;
+    background-position: center;
+    background-position-y: 180px !important ;
+    
+}
+
+      /* ! Sobre mi skills */
+
+#sobreMi .lista2{
+    width: 400px !important;
+    margin-top: -340px !important;
+    margin-left: -87px;
+}
+
+#sobreMi .lista2 h1{
+margin-left: 3px;
+font-size: 35px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#sobreMi .skils2{
+    width: 600px;
+    margin-left: -235px !important;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    .slick-prev
+{
+    position: absolute;
+    top:40%;
+    left: -45px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transform: rotate(-180deg);
+    transition: 0.3s ease-in-out;
+}
+
+.slick-next{
+    position: absolute;
+    top:40%;
+    right: -45px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+/* !fin */
+
+#fin{
+    padding-bottom: 120px !important;
+}
+
+#fin .cont-nombre{
+    margin-top: -600px;
+    margin-left: -100px;
+}
+footer .cont-nombre h2{
+    font-size: 35px !important;
+    padding-top: -120px !important;
+}
+
+.redes h2{
+    font-size: 50px !important;
+    margin-bottom: -150px !important;
+}
+
+.redes{
+    margin-left: -200px;
+    margin-top: 500px;
+}
+
+#fin .redes ion-icon {
+    font-size: 50px;
+}
+
+#fin .cont-foto img {
+    width: 270px;
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.692) ;
+    border-radius: 40px;}  
+
+    .slick-arrow{
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+        color: transparent;
+        z-index: 0;
+        border: none;
+        opacity: 0;
+    }
+
+    
+    .slick-prev
+    {
+        position: absolute;
+        top:40%;
+        left: -150px;
+        background: url('../imagenes/arrow-right.png');
+        background-size: 100%;
+        transform: rotate(-180deg);
+        transition: 0.3s ease-in-out;
+    }
+    .slick-next{
+        position: absolute;
+        top:40%;
+        right: -180px;
+        background: url('../imagenes/arrow-right.png');
+        background-size: 100%;
+        transition: 0.3s ease-in-out;
+}
+}
+
+@media screen and (min-width: 421px) and (max-width:465px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a{font-size: 20px !important;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    .imagenfea{
+        width: 25px !important;
+        height: auto !important;
+    }
+
+   .logo img{
+        width: 50px !important;
+        height: auto !important;
+    }
+
+    h2,h1{
+        font-size: 25px;
+    }
+
+
+header{
+    padding-bottom: 125px;
+}
+
+header .cont-foto {
+    padding-top: 80px;
+}
+
+header .cont-foto img {
+    width: 160px;
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.692) ;
+    border-radius: 40px;}
+
+    header .cont-nombre{
+
+        position: relative;
+        font-size: 8px !important;
+        padding: 0;
+        margin-top: -340px;
+        margin-left: -60px;
+    }
+    header .cont-nombre h2{
+
+       
+        font-size: 50px !important;
+        margin-top: 40px;
+    }
+    header .cont-nombre h3{
+
+        font-size: 15px !important;
+        margin-top: 10px;
+    }
+
+
+    .hero-right img{
+        width: 180px;
+        height: auto;
+        margin-top: -100px !important;
+        margin-left: 200px;
+        margin-right: -500px !important;
+    }
+.hero-left{
+margin-bottom: -450px;
+}
+
+.hero-right{
+    margin-bottom: 35px;
+}
+
+
+
+#sobreMi .lista1 h2 {
+    margin-top: -100px;
+    margin-left: 10px;
+    font-size: 40px;
+    
+}
+#sobreMi .lista1 p {
+   margin-left:93px;
+   text-align: center;
+   margin-top: 155px;
+   font-size: 12px;
+   width: 310px !important;
+  margin-left: auto;
+  margin-right: auto;
+   
+    
+}
+#sobreMi .lista1 {
+    margin-top: 10px;
+    background-size: 480px;
+    background-position: center;
+    background-position-y: 180px !important ;
+    
+}
+
+      /* ! Sobre mi skills */
+
+#sobreMi .lista2{
+    width: 400px !important;
+    margin-top: -400px !important;
+    margin-left: -87px;
+}
+
+#sobreMi .lista2 h1{
+margin-left: -50px !important;
+font-size: 35px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#sobreMi .skils2{
+    width: 400px;
+    margin-left: -190px !important;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    .slick-prev
+{
+    position: absolute;
+    top:40%;
+    left: -45px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transform: rotate(-180deg);
+    transition: 0.3s ease-in-out;
+}
+
+.slick-next{
+    position: absolute;
+    top:40%;
+    right: -45px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#experiencia .caja{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: -40px;
+}
+
+#experiencia .caja img{
+    width: 200px;
+    height: auto;
+}
+
+#experiencia .caja p{
+    width: 300px !important ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* !fin */
+
+#fin{
+    padding-bottom: 120px !important;
+}
+
+#fin .cont-nombre{
+    margin-top: -600px;
+    margin-left: -50px;
+}
+footer .cont-nombre h2{
+    font-size: 35px !important;
+    padding-top: -120px !important;
+}
+
+.redes h2{
+    font-size: 50px !important;
+    margin-bottom: -150px !important;
+}
+
+.redes{
+    margin-left: -200px;
+    margin-top: 500px;
+}
+
+#fin .redes ion-icon {
+    font-size: 50px;
+}
+
+#fin .cont-foto img {
+    width: 240px;
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.692) ;
+    border-radius: 40px;}  
+
+    .slick-arrow{
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+        color: transparent;
+        z-index: 0;
+        border: none;
+        opacity: 0;
+    }
+
+    
+    .slick-prev
+    {
+        position: absolute;
+        top:40%;
+        left: -150px;
+        background: url('../imagenes/arrow-right.png');
+        background-size: 100%;
+        transform: rotate(-180deg);
+        transition: 0.3s ease-in-out;
+    }
+    .slick-next{
+        position: absolute;
+        top:40%;
+        right: -180px;
+        background: url('../imagenes/arrow-right.png');
+        background-size: 100%;
+        transition: 0.3s ease-in-out;
+}
+}
+/* ! MIN-SMARTPHONE*/
+
+@media screen and (min-width: 320px) and (max-width:421px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a{font-size: 20px !important;
+    }
+
+
+    body{
+        width: 100%;
+    }
+
+    .imagenfea{
+        width: 25px !important;
+        height: auto !important;
+    }
+
+   .logo img{
+        width: 50px !important;
+        height: auto !important;
+    }
+
+    h2,h1{
+        font-size: 25px;
+    }
+
+
+header{
+    padding-bottom: 125px;
+}
+
+header .cont-foto {
+    padding-top: 80px;
+}
+
+header .cont-foto img {
+    width: 160px;
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.692) ;
+    border-radius: 40px;}
+
+    header .cont-nombre{
+
+        position: relative;
+        font-size: 8px !important;
+        padding: 0;
+        margin-top: -340px;
+        margin-left: -60px;
+    }
+    header .cont-nombre h2{
+
+       
+        font-size: 30px !important;
+        margin-top: 60px;
+    }
+    header .cont-nombre h3{
+
+        font-size: 9px !important;
+        margin-top: 10px;
+    }
+
+
+    .hero-right img{
+        width: 160px !important;
+        border-radius: 10px;
+        height: auto;
+        margin-top: -100px !important;
+        margin-left: 130px;
+        margin-right: -500px !important;
+    }
+.hero-left{
+margin-bottom: -450px;
+}
+
+.hero-right{
+    margin-bottom: 35px;
+}
+
+
+
+#sobreMi .lista1 h2 {
+    margin-top: -50px;
+    margin-left: 10px;
+    font-size: 40px;
+    
+}
+#sobreMi .lista1 p {
+   margin-left:93px;
+   text-align: center;
+   margin-top: 100px;
+   font-size: 9px;
+   width: 260px !important;
+   height: 200px !important;
+  margin-left: auto;
+  margin-right: auto;
+   
+    
+}
+#sobreMi .lista1 {
+    margin-top: 10px;
+    background-size: 350px;
+    background-position: center;
+    background-position-y: 180px !important ;
+    
+}
+
+      /* ! Sobre mi skills */
+
+#sobreMi .lista2{
+    width: 400px !important;
+    margin-top: -600px !important;
+    margin-left: -150px;
+}
+
+#sobreMi .lista2 h1{
+margin-left: -50px !important;
+font-size: 35px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#sobreMi .skils2{
+    width: 400px;
+    margin-left: -190px !important;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    .slick-prev
+{
+    position: absolute;
+    top:40%;
+    left: -45px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transform: rotate(-180deg);
+    transition: 0.3s ease-in-out;
+}
+
+.slick-next{
+    position: absolute;
+    top:40%;
+    right: -45px;
+    background: url('../imagenes/arrow-right.png');
+    background-size: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#experiencia .caja{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: -80px;
+}
+
+#experiencia .caja img{
+    width: 200px;
+    height: auto;
+}
+
+#port .delnimg{
+    width: 80px !important;
+    height: auto;
+    margin-bottom: 13.5px !important;
+
+}
+
+#port .delnimg2{
+    width: 80px !important;
+    height: auto;
+    margin-bottom: 40px !important;
+}
+
+#experiencia .caja p{
+    width: 300px !important ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* !fin */
+
+#fin{
+    padding-bottom: 120px !important;
+}
+
+#fin .cont-nombre{
+    margin-top: -600px;
+    margin-left: -50px;
+}
+footer .cont-nombre h2{
+    font-size: 35px !important;
+    padding-top: -120px !important;
+}
+
+.redes h2{
+    font-size: 50px !important;
+    margin-bottom: -150px !important;
+}
+
+.redes{
+    margin-left: -200px;
+    margin-top: 500px;
+}
+
+#fin .redes ion-icon {
+    font-size: 50px;
+}
+
+#fin .cont-foto img {
+    width: 240px;
+    box-shadow:0 8px 8px rgba(0, 0, 0, 0.692) ;
+    border-radius: 40px;}  
+
+    .slick-arrow{
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+        color: transparent;
+        z-index: 0;
+        border: none;
+        opacity: 0;
+    }
+
+    
+    .slick-prev
+    {
+        position: absolute;
+        top:40%;
+        left: -150px;
+        background: url('../imagenes/arrow-right.png');
+        background-size: 100%;
+        transform: rotate(-180deg);
+        transition: 0.3s ease-in-out;
+    }
+    .slick-next{
+        position: absolute;
+        top:40%;
+        right: -180px;
+        background: url('../imagenes/arrow-right.png');
+        background-size: 100%;
+        transition: 0.3s ease-in-out;
+}
+}
+
+
